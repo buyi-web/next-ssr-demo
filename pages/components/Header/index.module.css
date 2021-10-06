@@ -1,0 +1,22 @@
+.header{
+    height: 55px;
+    line-height: 55px;
+    background: black;
+    color: white;
+}
+
+.navs{
+    display: flex;
+    
+}
+
+.navs li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navs li button{
+    background: #abcdef;
+    padding: 6px 8px;
+    border-radius: 8px;
+}

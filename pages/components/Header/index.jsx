@@ -19,11 +19,6 @@ export default () => {
             </Link>
           </li>
           <li>
-            <Link href="/movies/[id]" as="/movies/3">
-              <a>电影详情页</a>
-            </Link>
-          </li>
-          <li>
             <button
               onClick={() => {
                 router.push("/movies[...params]", "/movies/a/b/c");

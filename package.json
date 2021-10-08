@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/buyi-web/next-ssr-demo#readme",
   "dependencies": {
+    "axios": "^0.22.0",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.1"
   }
 }

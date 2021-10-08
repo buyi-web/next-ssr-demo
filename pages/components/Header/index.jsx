@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from './index.module.css'
-export default () => {
-  console.log(styles);
+
+const Header = () => {
   const router = useRouter();
   return (
     <div className={styles.header}>
@@ -35,3 +35,5 @@ export default () => {
     </div>
   );
 };
+
+export default Header;
